@@ -1,25 +1,32 @@
 header{
+   
+
+    
     nav{
         
 
         ul{
             text-align: center;
-            margin: 3rem;
+            margin-bottom: 15px;
+        }
             
             
             li{
                 display: inline-block;
                 padding: 2rem;
                 
-                
+                a:hover {
+                    background-color: grey;
+                    padding: 5px;
+                  }
                 a:link{
                    
                     text-decoration:none; 
-
-                 
+                   
+                   
                 }
           
             }
         }
     }
-}
+
