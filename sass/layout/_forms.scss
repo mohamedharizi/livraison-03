@@ -5,7 +5,8 @@
  input[type=text], select, textarea {
     width: 100%; 
     padding: 12px; 
-    border: 1px solid #ccc; 
+    border: 1px solid #ccc;
+    
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 10px; 
@@ -23,16 +24,4 @@
     cursor: pointer;
   }
   
-  
-  input[type=Envoyer]:hover {
-    background-color: rgb(121, 41, 54);
-  }
-  
-
-  .container {
-    border-radius: 5px;
-    background-color: #d82222;
-    padding: 20px;
-  } 
-
 }
