@@ -1,0 +1,19 @@
+
+.galerie{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+}
+
+
+.galerie figure {
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 1vw;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 400px;
+   
+}
